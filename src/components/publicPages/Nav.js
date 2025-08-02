@@ -12,6 +12,7 @@ function Nav() {
           <a href="#" className="nav-link text-white">Contact</a>
         </div>
         <div className="d-flex gap-3">
+          <Link to ="Register" className="nav-link text-white" style={{fontSize: "18px"}}>Register</Link>
           <Link to ="Login" className="nav-link text-white" style={{fontSize: "18px"}}>Login</Link>
           <button className="btn btn-light">Get Started</button>
         </div>
